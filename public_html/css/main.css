@@ -3,11 +3,22 @@ body, html {
     margin: 0;
 }
 
+/* Index Page */
 #landing-page {
     background-image: url("../img/5element.jpg"); 
+    /*opacity: 0.75;*/
     height: 100%; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-#welcome-title {}
+#welcome-title {
+    color: #99ff99;
+    opacity: 0.64;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 15px;
+}
