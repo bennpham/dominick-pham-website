@@ -31,7 +31,7 @@ header nav .container #navbar .navbar-right a:hover {
 }
 
 /* Index Page */
-#landing-page {
+#home {
     background-image: url("../img/5element.jpg"); 
     /*opacity: 0.75;*/
     height: 100%; 
