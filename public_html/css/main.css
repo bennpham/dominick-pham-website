@@ -3,6 +3,15 @@ body, html {
     margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif; 
+}
+
+.font-captions {
+    font-size: 2em;
+}
+
 /* Navbar */
 header nav .container #navbar .navbar-right {
     padding-top: 12px;
@@ -41,3 +50,26 @@ header nav .container #navbar .navbar-right a:hover {
     margin-top: 15px;
 }
 
+/* About Page */
+#img-massage-room {
+    width: 378px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Services Page */
+#services {
+    background-color: #eee;
+}
+#services h1 {
+    text-align: center;
+}
+
+/* Contact Page */
+#contact {
+    background-color: #305c3f;
+}
+#contact h1, #contact h2, #contact h3, #contact h4 {
+    text-align: center;
+    color: white;
+}
