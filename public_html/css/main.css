@@ -3,6 +3,24 @@ body, html {
     margin: 0;
 }
 
+/* Navbar */
+header nav .container #navbar .navbar-right {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+header nav .container #navbar .navbar-right a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Tahoma, Geneva, sans-serif; 
+    text-decoration: None;
+    color: #99ff99;
+}
+header nav .container #navbar .navbar-right a:hover {
+    color: #009933;
+}
+
 /* Index Page */
 #landing-page {
     background-image: url("../img/5element.jpg"); 
@@ -22,3 +40,4 @@ body, html {
     font-weight: 900;
     margin-top: 15px;
 }
+
